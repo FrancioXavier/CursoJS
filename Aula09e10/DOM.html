@@ -17,12 +17,18 @@
 </head>
 
 <body>
-    <h1>Iniciando estudos com DOM</h1>
-    <h2>Clique aqui</h2>
+    <h1 id="GetID">Iniciando estudos com DOM</h1>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript</p>
+    <div id="getclass">Clique Ok </div>
 
     <script>
-        window.document.write(window.navigator.appName)
+        var p1 = window.document.getElementsByTagName('p')[0]
+        //var p2 = window.document.getElementById('GetID')
+        //var p3 = window.document.getElementsByClassName('Getclass')
+        var q = window.document.querySelector('div#getclass')
 
+        window.document.write(q.innerText)
+        window.document.write(p1.innerText)
     </script>
 </body>
 
