@@ -1,9 +1,11 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: mediumaquamarine;
 }
 
 p {
+    font-size: medium;
     color: black;
 }
 
@@ -35,11 +37,4 @@ h1 {
     padding-top: 3rem;
     text-align: center;
     font-size: 30px;
-}
-
-#img {
-    width: 300px;
-    height: 300px;
-    border-radius: 20%;
-    padding-top: 15px;
 }

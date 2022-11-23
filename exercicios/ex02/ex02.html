@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body id="background">
+
+    <header class="header">
+        <h1>VERIFICADOR DE IDADE</h1>
+    </header>
+
+    <section class="container">
+        <div class="text-content">
+            <div id="txt"></div>
+
+            <p>
+                Digite o ano de nascimento: <input type="number" name="" id="nasc">
+            </p>
+
+            <p>SEXO:
+                <input type="radio" name="radsex" id="masculino" checked>
+                <label for="masculino">masculino</label>
+                <input type="radio" name="radsex" id="feminino">
+                <label for="feminino">feminino</label>
+            </p>
+
+            <p>
+                <input type="button" onclick="verifica()" value="verificar">
+            </p>
+
+            <div class="resposta" id="res">
+                <div id="text"></div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/ex02.js"></script>
+</body>
+
+</html>
