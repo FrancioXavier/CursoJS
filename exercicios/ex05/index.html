@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>analisador</title>
+</head>
+
+<body id="background">
+
+    <header class="header">
+        <h1>ANALISADOR DE NÚMEROS</h1>
+    </header>
+
+    <section class="container">
+        <div class="content">
+            <p>
+                Escolha um numero de 1 a 100: <input type="number" name="number" id="number">
+                <input type="button" value="adicionar" class="button" onclick="adicionar()">
+            </p>
+            <div id="res">
+                <select name="tabela" id="tabela" size="6">
+                </select>
+
+                <input type="button" value="verificar" onclick="verificar()">
+                <div id="verify-content">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
