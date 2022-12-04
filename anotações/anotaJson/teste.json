@@ -1,0 +1,11 @@
+{
+    "nome": "Francio",
+    "idade": 19,
+    "esta_andando": true,
+    "hobbies": ["estuda", "joga", "programar"],
+    "detalhes_profissao": {
+        "formacao": "Ciencia da computação",
+        "cargo": "junior",
+        "tempo": 2
+    }
+}
