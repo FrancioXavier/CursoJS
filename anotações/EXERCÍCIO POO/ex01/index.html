@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body id="background">
+
+    <header class="header">
+        <h1>Criando usuário</h1>
+    </header>
+
+    <section class="container">
+        <div class="text-content">
+            <div id="txt"></div>
+
+            <p>
+                Digite o email: <input type="email" name="email" id="email">
+                Digite a senha: <input type="password" name="password" id="password">
+            </p>
+
+            <p>É administrador?
+                <input type="radio" name="verif" id="yes" checked>
+                <label for="yes">Sim</label>
+                <input type="radio" name="verif" id="no">
+                <label for="no">Não</label>
+            </p>
+
+            <p>
+                <input type="button" onclick="verifica()" value="verificar">
+            </p>
+
+            <div class="resposta" id="res">
+                <div id="text"></div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
